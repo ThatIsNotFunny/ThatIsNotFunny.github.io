@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+}
+
+
+header {
+    height: 2rem;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+}
+
+.item-definition {
+    border: 1px solid violet;
+}
+
+aside {
+    display: none;
+}
+
+li {
+    display: block;
+}
+
+@media screen and (min-width:550px) {
+    aside {
+        display: block;
+        
+        float: left;
+        width:20%;
+    }
+    section {
+        float: right;
+        width: 80%;
+    }
+
+}
